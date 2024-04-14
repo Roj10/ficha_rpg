@@ -1,0 +1,22 @@
+*{
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(68, 68, 68);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
