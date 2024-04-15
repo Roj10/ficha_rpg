@@ -13,11 +13,34 @@ input{
 }
 
 body {
+    
+}
+
+
+.habilidades{
+    border: 2px solid;
     display: flex;
 }
 
-button {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.second {
+    border: 2px solid;
+    column-count: 2;
 }
+
+.solid {
+    margin-left: 5%;
+}
+
+input {
+    margin: 10px;
+}
+
+h4 {
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+
+.aling{
+    border: 2px solid;
+}
+
