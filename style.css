@@ -8,15 +8,16 @@
     scroll-behavior: smooth;
 }
 
-body{
-    background: rgb(68, 68, 68);
+input{
+    border: 2px solid rgb(133, 133, 133);
 }
 
-p{
+body {
     display: flex;
-    justify-content: center;
-    color: aliceblue;
 }
-h4{
-    color: aliceblue;
+
+button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
