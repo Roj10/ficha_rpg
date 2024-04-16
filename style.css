@@ -23,7 +23,8 @@ body {
 }
 
 .second {
-    border: 2px solid;
+    /*position: absolute;*/
+    border: 2px solid transparent;
     column-count: 2;
 }
 
@@ -41,6 +42,7 @@ h4 {
 }
 
 .aling{
-    border: 2px solid;
+    border: 2px solid transparent;
+    margin-left: -35px;
 }
 
