@@ -12,10 +12,6 @@ input{
     border: 2px solid rgb(133, 133, 133);
 }
 
-body {
-    display: none;
-}
-
 
 .habilidades{
     border: 2px solid;
@@ -45,4 +41,3 @@ h4 {
     border: 2px solid transparent;
     margin-left: -35px;
 }
-
