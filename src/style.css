@@ -12,18 +12,24 @@ input{
     border: 2px solid rgb(133, 133, 133);
 }
 
+.ficha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .habilidades{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+}
+
+.inventario{
+    display: flex;
+    justify-content: center;
 }
 
 .second {
     display: flex;
     flex-direction: column; flex-direction: column;
-}
-
-::placeholder {
 }
 
 .solid {
