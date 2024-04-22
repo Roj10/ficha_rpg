@@ -53,3 +53,17 @@ h4 {
     border: 2px solid transparent;
     margin-left: -35px;
 }
+
+.name {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    position: absolute;
+    margin-top: -20px;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: rgb(73, 73, 73);
+    color: aliceblue;
+}
