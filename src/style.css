@@ -20,11 +20,15 @@ input{
 .habilidades{
     display: flex;
     justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 .inventario{
     display: flex;
     justify-content: center;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 .second {
