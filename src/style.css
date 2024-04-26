@@ -8,12 +8,28 @@
     scroll-behavior: smooth;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RPG {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    position: absolute;
+    margin-top: -755px;
+    background-color: rgb(255, 255, 255);
+}
+
 input{
     border: 2px solid rgb(133, 133, 133);
 }
 
 .ficha{
-
+    border: 2px solid;
+    border-radius: 20px;
 }
 
 .habilidades{
@@ -21,6 +37,11 @@ input{
     justify-content: center;
     border: 2px solid black;
     border-radius: 15px;
+}
+
+.atributos {
+    border: 2px solid;
+    margin: 2rem;
 }
 
 .inventario{
@@ -32,7 +53,7 @@ input{
 
 .second {
     display: flex;
-    flex-direction: column; flex-direction: column;
+    flex-direction: column; 
 }
 
 .solid {
@@ -68,6 +89,7 @@ h4 {
     justify-content: center;
     border: 2px solid black;
     border-radius: 15px;
+    margin: 2rem;
 }
 
 #name {
