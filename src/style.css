@@ -19,7 +19,7 @@ body {
     align-items: top;
     justify-content: center;
     position: absolute;
-    margin-top: -755px;
+    margin-top: -975px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -30,6 +30,8 @@ input{
 .ficha{
     border: 2px solid;
     border-radius: 20px;
+    min-width: 1090px;
+    min-height: 1000px;
 }
 
 .habilidades{
@@ -40,8 +42,16 @@ input{
 }
 
 .atributos {
+    display: flex;
     border: 2px solid;
     margin: 2rem;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pro {
+    max-width: 150px;
 }
 
 .inventario{
