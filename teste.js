@@ -62,3 +62,44 @@ function converte(){
     document.getElementById("r9").innerHTML = "+ "+ Number.parseInt(resultado9)
     document.getElementById("r10").innerHTML = "+ "+ Number.parseInt(resultado10)
 }
+
+function Add(){
+    var conversor1 = Number(document.getElementById("pro1").value)
+    var conversor2 = Number(document.getElementById("pro2").value)
+    var conversor3 = Number(document.getElementById("pro3").value)
+    var conversor4 = Number(document.getElementById("pro4").value)
+    var conversor5 = Number(document.getElementById("pro5").value)
+    var conversor6 = Number(document.getElementById("pro6").value)
+
+    var resultado1 = 0
+    if(conversor1 > 2){
+        resultado1 = (conversor1 / 10)
+    }
+    var resultado2 = 0
+    if(conversor2 > 2){
+        resultado2 = (conversor2 / 10)
+    }
+    var resultado3 = 0
+    if(conversor3 > 2){
+        resultado3 = (conversor3 / 10)
+    }
+    var resultado4 = 0
+    if(conversor4 > 2){
+        resultado4 = (conversor4 / 10)
+    }
+    var resultado5 = 0
+    if(conversor5 > 2){
+        resultado5 = (conversor5 / 10)
+    }
+    var resultado6 = 0
+    if(conversor6 > 2){
+        resultado6 = (conversor1 / 10)
+    }
+
+    document.getElementById("p1").innerHTML = "/ + "+ Number.parseInt(resultado1)
+    document.getElementById("p2").innerHTML = "/ + "+ Number.parseInt(resultado2)
+    document.getElementById("p3").innerHTML = "/ + "+ Number.parseInt(resultado3)
+    document.getElementById("p4").innerHTML = "/ + "+ Number.parseInt(resultado4)
+    document.getElementById("p5").innerHTML = "/ + "+ Number.parseInt(resultado5)
+    document.getElementById("p6").innerHTML = "/ + "+ Number.parseInt(resultado6)
+}

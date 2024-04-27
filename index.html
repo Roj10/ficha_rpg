@@ -30,12 +30,23 @@
         </div>
 
         <div class="atributos">
-            <input class="pro" id="pro1" type="number" placeholder="Força">
-            <input class="pro" id="pro2" type="number" placeholder="Destreza">
-            <input class="pro" id="pro3" type="number" placeholder="Constituição">
-            <input class="pro" id="pro4" type="number" placeholder="inteligência">
-            <input class="pro" id="pro5" type="number" placeholder="Sabedoria">
-            <input class="pro" id="pro6" type="number" placeholder="Velocidade">
+            <div class="proname">
+                <h4>Força</h4>
+                <h4>Destreza</h4>
+                <h4>Constituição</h4>
+                <h4>inteligência</h4>
+                <h4>Sabedoria</h4>
+                <h4>Velocidade</h4>
+            </div>
+            <div class="prosub">
+                <div class="alingbonus"><input class="pro" id="pro1" type="number"><h4 id="p1" class="probonus">/ + 0</h4></div>
+                <div class="alingbonus"><input class="pro" id="pro2" type="number"><h4 id="p2" class="probonus">/ + 0</h4></div>
+                <div class="alingbonus"><input class="pro" id="pro3" type="number"><h4 id="p3" class="probonus">/ + 0</h4></div>
+                <div class="alingbonus"><input class="pro" id="pro4" type="number"><h4 id="p4" class="probonus">/ + 0</h4></div>
+                <div class="alingbonus"><input class="pro" id="pro5" type="number"><h4 id="p5" class="probonus">/ + 0</h4></div>
+                <div class="alingbonus"><input class="pro" id="pro6" type="number"><h4 id="p6" class="probonus">/ + 0</h4></div>
+            </div>
+            <button class="button1" onclick="Add()">Adicionar Bonûs</button>
         </div>
 
         <div class="grid">

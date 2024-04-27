@@ -44,14 +44,65 @@ input{
 .atributos {
     display: flex;
     border: 2px solid;
+    flex-direction: column; 
+    margin: 2rem;
+    justify-content: space-between;
+}
+
+.pro {
+    position: absolute;
+    max-width: 30px; 
+    border: transparent;
+    border-bottom: 2px solid;
+    margin-top: 1.2rem;
+    margin-right: 50px;
+    background-color: rgb(214, 214, 214);
+}
+
+.alingbonus {
+    display: flex;
+    flex-direction: row; 
+    border: 2px solid;
+    border-radius: 30px;
+    min-width: 145px;
+    justify-content: space-around;
+}
+
+.probonus {
+    margin-top: 1rem;
+    margin-left: 50px;
+}
+
+.proname h4 {
+    text-align: center;
+    min-width: 130px;
+    margin-top: -20px;
+}
+
+.proname {
+    display: flex;
+    margin: 2rem;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -50px;
+}
+
+.prosub {
+    display: flex;
     margin: 2rem;
     flex-direction: row; 
     align-items: center;
     justify-content: space-between;
 }
 
-.pro {
-    max-width: 150px;
+.proplus {
+    display: flex;
+    margin: 2rem;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .inventario{
@@ -115,9 +166,18 @@ h4 {
     grid-template-columns: 1fr 1fr;
 }
 
-button {
+.button {
     position: absolute;
     margin-top: 420px;
+    font-size: 1rem;
+    border: 3px solid ;
+    border-radius: 25px;
+}
+
+.button1 {
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 145px;
     font-size: 1rem;
     border: 3px solid ;
     border-radius: 25px;
