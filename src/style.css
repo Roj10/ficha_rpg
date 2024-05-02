@@ -1,4 +1,4 @@
-*{
+* {
     margin: 1rem;
     padding: 0;
     box-sizing: border-box;
@@ -23,18 +23,18 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-input{
+input {
     border: 2px solid rgb(133, 133, 133);
 }
 
-.ficha{
+.ficha {
     border: 2px solid;
     border-radius: 20px;
     min-width: 1090px;
     min-height: 1000px;
 }
 
-.habilidades{
+.habilidades {
     display: flex;
     justify-content: center;
     border: 2px solid black;
@@ -44,14 +44,14 @@ input{
 .atributos {
     display: flex;
     border: 2px solid;
-    flex-direction: column; 
+    flex-direction: column;
     margin: 2rem;
     justify-content: space-between;
 }
 
 .pro {
     position: absolute;
-    max-width: 30px; 
+    max-width: 30px;
     border: transparent;
     border-bottom: 2px solid;
     margin-top: 1.2rem;
@@ -61,7 +61,7 @@ input{
 
 .alingbonus {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     border: 2px solid;
     border-radius: 30px;
     min-width: 145px;
@@ -82,7 +82,7 @@ input{
 .proname {
     display: flex;
     margin: 2rem;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-bottom: -50px;
@@ -91,7 +91,7 @@ input{
 .prosub {
     display: flex;
     margin: 2rem;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -99,13 +99,13 @@ input{
 .proplus {
     display: flex;
     margin: 2rem;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
 }
 
-.inventario{
+.inventario {
     display: flex;
     justify-content: center;
     border: 2px solid black;
@@ -114,7 +114,7 @@ input{
 
 .second {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .solid {
@@ -130,7 +130,7 @@ h4 {
     font-size: 1.25rem;
 }
 
-.aling{
+.aling {
     border: 2px solid transparent;
     margin-left: -35px;
 }
@@ -170,7 +170,7 @@ h4 {
     position: absolute;
     margin-top: 420px;
     font-size: 1rem;
-    border: 3px solid ;
+    border: 3px solid;
     border-radius: 25px;
 }
 
@@ -178,7 +178,7 @@ h4 {
     position: absolute;
     display: flex;
     font-size: 1rem;
-    border: 3px solid ;
+    border: 3px solid;
     border-radius: 25px;
     margin-left: 510px;
     margin-top: 145px;

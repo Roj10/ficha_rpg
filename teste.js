@@ -1,4 +1,4 @@
-function converte(){
+function converte() {
     var conversor1 = Number(document.getElementById("1").value)
     var conversor2 = Number(document.getElementById("2").value)
     var conversor3 = Number(document.getElementById("3").value)
@@ -11,59 +11,59 @@ function converte(){
     var conversor10 = Number(document.getElementById("10").value)
 
     var resultado1 = 0
-    if(conversor1 > 4){
+    if (conversor1 > 4) {
         resultado1 = (conversor1 / 5)
     }
     var resultado2 = 0
-    if(conversor2 > 4){
+    if (conversor2 > 4) {
         resultado2 = (conversor2 / 5)
     }
     var resultado3 = 0
-    if(conversor3 > 4){
+    if (conversor3 > 4) {
         resultado3 = (conversor3 / 5)
     }
     var resultado4 = 0
-    if(conversor4 > 4){
+    if (conversor4 > 4) {
         resultado4 = (conversor4 / 5)
     }
     var resultado5 = 0
-    if(conversor5 > 4){
+    if (conversor5 > 4) {
         resultado5 = (conversor5 / 5)
     }
     var resultado6 = 0
-    if(conversor6 > 4){
+    if (conversor6 > 4) {
         resultado6 = (conversor6 / 5)
     }
     var resultado7 = 0
-    if(conversor7 > 4){
+    if (conversor7 > 4) {
         resultado7 = (conversor7 / 5)
     }
     var resultado8 = 0
-    if(conversor8 > 4){
+    if (conversor8 > 4) {
         resultado8 = (conversor8 / 5)
     }
     var resultado9 = 0
-    if(conversor9 > 4){
+    if (conversor9 > 4) {
         resultado9 = (conversor9 / 5)
     }
     var resultado10 = 0
-    if(conversor10 > 4){
+    if (conversor10 > 4) {
         resultado10 = (conversor10 / 5)
     }
 
-    document.getElementById("r1").innerHTML = "+ "+ Number.parseInt(resultado1)
-    document.getElementById("r2").innerHTML = "+ "+ Number.parseInt(resultado2)
-    document.getElementById("r3").innerHTML = "+ "+ Number.parseInt(resultado3)
-    document.getElementById("r4").innerHTML = "+ "+ Number.parseInt(resultado4)
-    document.getElementById("r5").innerHTML = "+ "+ Number.parseInt(resultado5)
-    document.getElementById("r6").innerHTML = "+ "+ Number.parseInt(resultado6)
-    document.getElementById("r7").innerHTML = "+ "+ Number.parseInt(resultado7)
-    document.getElementById("r8").innerHTML = "+ "+ Number.parseInt(resultado8)
-    document.getElementById("r9").innerHTML = "+ "+ Number.parseInt(resultado9)
-    document.getElementById("r10").innerHTML = "+ "+ Number.parseInt(resultado10)
+    document.getElementById("r1").innerHTML = "+ " + Number.parseInt(resultado1)
+    document.getElementById("r2").innerHTML = "+ " + Number.parseInt(resultado2)
+    document.getElementById("r3").innerHTML = "+ " + Number.parseInt(resultado3)
+    document.getElementById("r4").innerHTML = "+ " + Number.parseInt(resultado4)
+    document.getElementById("r5").innerHTML = "+ " + Number.parseInt(resultado5)
+    document.getElementById("r6").innerHTML = "+ " + Number.parseInt(resultado6)
+    document.getElementById("r7").innerHTML = "+ " + Number.parseInt(resultado7)
+    document.getElementById("r8").innerHTML = "+ " + Number.parseInt(resultado8)
+    document.getElementById("r9").innerHTML = "+ " + Number.parseInt(resultado9)
+    document.getElementById("r10").innerHTML = "+ " + Number.parseInt(resultado10)
 }
 
-function Add(){
+function Add() {
     var conversor1 = Number(document.getElementById("pro1").value)
     var conversor2 = Number(document.getElementById("pro2").value)
     var conversor3 = Number(document.getElementById("pro3").value)
@@ -72,34 +72,34 @@ function Add(){
     var conversor6 = Number(document.getElementById("pro6").value)
 
     var resultado1 = 0
-    if(conversor1 > 2){
+    if (conversor1 > 2) {
         resultado1 = (conversor1 / 10)
     }
     var resultado2 = 0
-    if(conversor2 > 2){
+    if (conversor2 > 2) {
         resultado2 = (conversor2 / 10)
     }
     var resultado3 = 0
-    if(conversor3 > 2){
+    if (conversor3 > 2) {
         resultado3 = (conversor3 / 10)
     }
     var resultado4 = 0
-    if(conversor4 > 2){
+    if (conversor4 > 2) {
         resultado4 = (conversor4 / 10)
     }
     var resultado5 = 0
-    if(conversor5 > 2){
+    if (conversor5 > 2) {
         resultado5 = (conversor5 / 10)
     }
     var resultado6 = 0
-    if(conversor6 > 2){
+    if (conversor6 > 2) {
         resultado6 = (conversor1 / 10)
     }
 
-    document.getElementById("p1").innerHTML = "/ + "+ Number.parseInt(resultado1)
-    document.getElementById("p2").innerHTML = "/ + "+ Number.parseInt(resultado2)
-    document.getElementById("p3").innerHTML = "/ + "+ Number.parseInt(resultado3)
-    document.getElementById("p4").innerHTML = "/ + "+ Number.parseInt(resultado4)
-    document.getElementById("p5").innerHTML = "/ + "+ Number.parseInt(resultado5)
-    document.getElementById("p6").innerHTML = "/ + "+ Number.parseInt(resultado6)
+    document.getElementById("p1").innerHTML = "/ + " + Number.parseInt(resultado1)
+    document.getElementById("p2").innerHTML = "/ + " + Number.parseInt(resultado2)
+    document.getElementById("p3").innerHTML = "/ + " + Number.parseInt(resultado3)
+    document.getElementById("p4").innerHTML = "/ + " + Number.parseInt(resultado4)
+    document.getElementById("p5").innerHTML = "/ + " + Number.parseInt(resultado5)
+    document.getElementById("p6").innerHTML = "/ + " + Number.parseInt(resultado6)
 }
