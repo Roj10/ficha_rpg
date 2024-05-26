@@ -103,38 +103,3 @@ function Add() {
     document.getElementById("p5").innerHTML = "/ + " + Number.parseInt(resultado5)
     document.getElementById("p6").innerHTML = "/ + " + Number.parseInt(resultado6)
 }
-
-// Data for the radar chart
-const data = {
-    labels: ['A', 'B', 'C', 'D', 'E'],
-    datasets: [{
-        label: 'Dataset',
-        data: [7, 5, 9, 5, 4, 6], // Sample data, you can replace it with your own
-        backgroundColor: 'rgba(255, 0, 132, 0.2)', // Fill color
-        borderColor: 'rgba(255, 99, 132, 1)', // Border color
-        borderWidth: 1
-    }]
-  };
-  
-  // Configuration options
-  const options = {
-    scale: {
-        angleLines: {
-            display: true
-        },
-        ticks: {
-            suggestedMin: 0,
-            suggestedMax: 5
-        }
-    }
-  };
-  
-  // Get the canvas element
-  const ctx = document.getElementById('radarChart').getContext('2d');
-  
-  // Create the radar chart
-  const radarChart = new Chart(ctx, {
-    type: 'radar',
-    data: data,
-    options: options
-  });
